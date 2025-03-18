@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script>
+      var a = {
+        name: "John",
+        age: 30,
+        ispass: true,
+        subject: {
+          "FSD2": "NAS",
+          "Fcsp2": "TAT",
+        },
+        marks: [23, 22, 25],
+        test: null,
+      };
+      console.log(a); //func, undefined (null), date not printed
+      console.log(a.name, a['name'])
+      console.log(a.test)
+      console.log(a.subject.Fcsp2)
+      console.log(a.marks[2])
+    </script>
+  </head>
+  <body></body>
+</html>
