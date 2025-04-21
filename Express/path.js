@@ -1,0 +1,7 @@
+const express=require("express")
+const app=express()
+// const p=require("path")
+// const sp=p.join(__dirname,"../")
+// app.use(express.static(sp))
+app.use(express.static(__dirname))
+app.listen(5000)
