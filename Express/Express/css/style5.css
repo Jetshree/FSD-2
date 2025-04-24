@@ -1,6 +1,6 @@
 .test {
   font-size: 65px;
-  color: coral;
+  color: violet;
   text-align: center;
-  text-decoration: dotted;
+  text-decoration: underline;
 }

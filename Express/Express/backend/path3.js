@@ -1,0 +1,6 @@
+const express=require("express")
+const path=require("path")
+const app=express()
+var p=path.join(__dirname,"../")
+app.use(express.static(p,{index:"index3.html"}))
+app.listen(5001)
